@@ -1,6 +1,5 @@
 - authors: "Emma Dauterman*, <strong>Vivian Fang*</strong>, Ioannis Demertzis, Natacha Crooks, Raluca Ada Popa"
-  title: "Snoopy: Surpassing the Scalability Bottleneck of
-Oblivious Storage"
+  title: "Snoopy: Surpassing the scalability bottleneck of oblivious storage"
   conference: "Symposium on Operating Systems Principles (SOSP)"
   year: 2021
   note: "to appear"
