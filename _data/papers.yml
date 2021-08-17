@@ -1,0 +1,16 @@
+- authors: "Emma Dauterman*, <strong>Vivian Fang*</strong>, Ioannis Demertzis, Natacha Crooks, Raluca Ada Popa"
+  title: "Snoopy: Surpassing the Scalability Bottleneck of
+Oblivious Storage"
+  conference: "Symposium on Operating Systems Principles (SOSP)"
+  year: 2021
+  note: "to appear"
+- authors: "Wen Zhang, <strong>Vivian Fang</strong>, Aurojit Panda, Scott Shenker"
+  title: "Kappa: A programming framework for serverless computing"
+  conference: "Symposium on Cloud Computing (SOCC)"
+  year: 2020
+  link: "/assets/papers/kappa.pdf"
+- authors: "Yotam Harchol, Aisha Mushtaq, <strong>Vivian Fang</strong>, James McCauley, Aurojit Panda, Scott Shenker"
+  title: "Making edge-computing resilient"
+  conference: "Symposium on Cloud Computing (SOCC)"
+  year: 2020
+  link: "/assets/papers/cessna.pdf"

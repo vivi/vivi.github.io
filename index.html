@@ -1,0 +1,30 @@
+---
+layout: index
+title: Vivian Fang
+meta: EECS student @ UC Berkeley
+---
+I am a third year computer science graduate student at UC Berkeley.
+My interests are broadly in security and systems and my advisor is Prof. 
+<a href="https://people.eecs.berkeley.edu/~raluca/">Raluca Ada Popa</a>.
+I am grateful to be supported by an NSF-GRFP fellowship.
+
+<br><br>
+<strong>publications</strong><br>
+<ul>
+{% for p in site.data.papers %}
+<li>
+<div class="paper">
+{% if p.link != nil %}
+  <a href="{{ p.link }}" target="_blank"><em>{{ p.title }}</em></a>
+{% else %}
+  <em>{{ p.title }}</em>
+{% endif %}
+<br>
+<div class="paper-details">
+  {{ p.authors }}.
+  {{ p.conference }}, {{ p.year }}.
+</div>
+</div>
+</li>
+{% endfor %}
+</ul>
