@@ -17,10 +17,14 @@ I completed my B.S. in Electrical Engineering & Computer Science at UC Berkeley,
 <div class="paper">
   <strong>{{ p.title }}</strong>
 {% if p.link != nil %}
-  <a class="paper-link" href="{{ p.link }}" target="_blank">[pdf]</a>
+  <span class="paper-link">
+  [<a href="{{ p.link }}" target="_blank">pdf</a>]
+  </span>
 {% endif %}
 {% if p.code != nil %}
-  <a class="paper-link" href="{{ p.code }}" target="_blank">[code]</a>
+  <span class="paper-link">
+  [<a href="{{ p.code }}" target="_blank">code</a>]
+  </span>
 {% endif %}
 <br>
 <div class="paper-details">
@@ -34,4 +38,11 @@ I completed my B.S. in Electrical Engineering & Computer Science at UC Berkeley,
 
 <div class="note">
 * denotes equal first-authors
+</div>
+
+<strong>links</strong>
+<div>
+<a class="social-link" href="https://twitter.com/vivianfxng">twitter</a> - 
+<a class="social-link" href="https://github.com/vivi">github</a> - 
+<a class="social-link" href="https://scholar.google.com/citations?user=jZVi5fwAAAAJ">scholar</a>
 </div>
