@@ -1,30 +1,37 @@
 ---
 layout: index
 title: Vivian Fang
-meta: EECS student @ UC Berkeley
+meta: CS graduate student @ UC Berkeley
 ---
-I am a third year computer science graduate student at UC Berkeley.
-My interests are broadly in security and systems and my advisor is Prof. 
-<a href="https://people.eecs.berkeley.edu/~raluca/">Raluca Ada Popa</a>.
-I am grateful to be supported by an NSF-GRFP fellowship.
-
-<br><br>
+<p>
+I am a third-year computer science graduate student at UC Berkeley advised by <a href="https://people.eecs.berkeley.edu/~raluca/">Raluca Ada Popa</a>.
+My interests are broadly in security and systems. I am grateful to be supported by an NSF-GRFP fellowship.
+</p>
+<p>
+I completed my B.S. in Electrical Engineering & Computer Science at UC Berkeley, where I worked with <a href="https://www2.eecs.berkeley.edu/Faculty/Homepages/shenker.html">Scott Shenker</a>, <a href="https://cs.nyu.edu/~apanda/">Aurojit Panda</a>, and <a href="https://www.justinesherry.com">Justine Sherry</a> in <a href="https://netsys.cs.berkeley.edu/">NetSys</a>.
+</p>
 <strong>publications</strong><br>
 <ul>
 {% for p in site.data.papers %}
 <li>
 <div class="paper">
+  <strong>{{ p.title }}</strong>
 {% if p.link != nil %}
-  <a href="{{ p.link }}" target="_blank"><em>{{ p.title }}</em></a>
-{% else %}
-  <em>{{ p.title }}</em>
+  <a class="paper-link" href="{{ p.link }}" target="_blank">[pdf]</a>
+{% endif %}
+{% if p.code != nil %}
+  <a class="paper-link" href="{{ p.code }}" target="_blank">[code]</a>
 {% endif %}
 <br>
 <div class="paper-details">
   {{ p.authors }}.
-  {{ p.conference }}, {{ p.year }}.
+  <em>{{ p.conference }}, {{ p.year }}</em>.
 </div>
 </div>
 </li>
 {% endfor %}
 </ul>
+
+<div class="note">
+* denotes equal first-authors
+</div>

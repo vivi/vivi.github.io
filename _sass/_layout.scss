@@ -299,10 +299,22 @@ p img {
     margin: 0 auto;
 }
 
-.paper-details {
-    margin-left: 15px;
+.paper-link {
+    padding-left: 2px;
+    font-size: 14px;
 }
 
-.paper-details strong {
+.paper-details {
+    font-size: 15px;
+    //margin-left: 15px;
+}
+
+.paper strong, .paper-details strong {
     color: #DDECEC;
+}
+
+div.note {
+    font-style: italic;
+    font-size: 12px;
+    text-align: right;
 }

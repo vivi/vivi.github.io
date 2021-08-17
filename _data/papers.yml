@@ -1,15 +1,21 @@
-- authors: "Emma Dauterman*, <strong>Vivian Fang*</strong>, Ioannis Demertzis, Natacha Crooks, Raluca Ada Popa"
+- authors: "Emma Dauterman*, Vivian Fang*, Ioannis Demertzis, Natacha Crooks, Raluca Ada Popa"
   title: "Snoopy: Surpassing the scalability bottleneck of oblivious storage"
   conference: "Symposium on Operating Systems Principles (SOSP)"
   year: 2021
   note: "to appear"
-- authors: "Wen Zhang, <strong>Vivian Fang</strong>, Aurojit Panda, Scott Shenker"
+- authors: "Wen Zhang, Vivian Fang, Aurojit Panda, Scott Shenker"
   title: "Kappa: A programming framework for serverless computing"
   conference: "Symposium on Cloud Computing (SOCC)"
+  code: "https://github.com/NetSys/kappa"
   year: 2020
   link: "/assets/papers/kappa.pdf"
-- authors: "Yotam Harchol, Aisha Mushtaq, <strong>Vivian Fang</strong>, James McCauley, Aurojit Panda, Scott Shenker"
+- authors: "Yotam Harchol, Aisha Mushtaq, Vivian Fang, James McCauley, Aurojit Panda, Scott Shenker"
   title: "Making edge-computing resilient"
   conference: "Symposium on Cloud Computing (SOCC)"
   year: 2020
   link: "/assets/papers/cessna.pdf"
+- authors: "Vivian Fang, Tamás Lévai, Sangjin Han, Sylvia Ratnasamy, Barath Raghavan, Justine Sherry"
+  title: "Evaluating software switches: Hard or hopeless?"
+  conference: "Tech Report No. UCB/EECS-2018-136"
+  year: 2018
+  link: "/assets/papers/switches.pdf"
