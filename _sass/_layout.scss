@@ -322,3 +322,20 @@ div.note {
     font-size: 12px;
     text-align: right;
 }
+
+.me {
+    float: right;
+    margin: 0 10px 15px 15px;
+    @include media-query($on-palm) {
+        float: none;
+        text-align: center;
+        margin: 15px 0;
+    }
+}
+.me img {
+    width: 150px;
+    border: 1px solid $grey-color-light;
+    @include media-query($on-palm) {
+        width: 200px;
+    }
+}
