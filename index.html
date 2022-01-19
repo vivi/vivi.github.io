@@ -16,6 +16,10 @@ I completed my B.S. in Electrical Engineering & Computer Science at UC Berkeley,
 <li>
 <div class="paper">
   <strong>{{ p.title }}</strong>
+<br>
+<div class="paper-details">
+  {{ p.authors }}.
+  <em>{{ p.conference }}, {{ p.year }}</em>.
 {% if p.link != nil %}
   <span class="paper-link">
   [<a href="{{ p.link }}" target="_blank">pdf</a>]
@@ -26,10 +30,6 @@ I completed my B.S. in Electrical Engineering & Computer Science at UC Berkeley,
   [<a href="{{ p.code }}" target="_blank">code</a>]
   </span>
 {% endif %}
-<br>
-<div class="paper-details">
-  {{ p.authors }}.
-  <em>{{ p.conference }}, {{ p.year }}</em>.
 </div>
 </div>
 </li>
