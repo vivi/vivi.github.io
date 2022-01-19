@@ -10,13 +10,13 @@
   code: "https://github.com/ucbrise/snoopy"
 - authors: "Wen Zhang, Vivian Fang, Aurojit Panda, Scott Shenker"
   title: "Kappa: A programming framework for serverless computing"
-  conference: "Symposium on Cloud Computing (SOCC)"
+  conference: "Symposium on Cloud Computing (SoCC)"
   code: "https://github.com/NetSys/kappa"
   year: 2020
   link: "/assets/papers/kappa.pdf"
 - authors: "Yotam Harchol, Aisha Mushtaq, Vivian Fang, James McCauley, Aurojit Panda, Scott Shenker"
   title: "Making edge-computing resilient"
-  conference: "Symposium on Cloud Computing (SOCC)"
+  conference: "Symposium on Cloud Computing (SoCC)"
   year: 2020
   link: "/assets/papers/cessna.pdf"
 - authors: "Vivian Fang, Tamás Lévai, Sangjin Han, Sylvia Ratnasamy, Barath Raghavan, Justine Sherry"
