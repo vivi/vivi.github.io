@@ -310,11 +310,20 @@ p img {
 
 .paper-details {
     font-size: 15px;
-    //margin-left: 15px;
+    margin-left: 15px;
 }
 
 .paper strong, .paper-details strong {
     color: #DDECEC;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    margin-left: 0px;
+}
+
+ul.no-bullets li {
+    margin-bottom: 5px;
 }
 
 div.note {
@@ -338,4 +347,29 @@ div.note {
     @include media-query($on-palm) {
         width: 200px;
     }
+}
+
+img.art {
+    margin: 10px;
+    object-fit: contain;
+}
+
+.project {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.project > .art {
+    background-color: $grey-color-light;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.project > .info {
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 70%;
+    flex-grow: 1;
+    //margin-left: 30%;
 }

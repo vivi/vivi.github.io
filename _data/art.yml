@@ -1,0 +1,27 @@
+- thumbnail: pirahna.png
+  img: pirahna.png
+  project:
+    name: "Piranha: A GPU Platform for Secure Computation"
+    authors: "Jean-Luc Watson, Sameer Wagh, Raluca Ada Popa"
+    conference: USENIX Security 2022
+- thumbnail: costco.png
+  img: costco.png
+  project:
+    name: "CostCO: An automatic cost modeling framework for secure multi-party computation "
+    authors: "Vivian Fang, Lloyd Brown, William Lin, Wenting Zheng, Aurojit Panda, Raluca Ada Popa"
+    conference: IEEE EuroS&P 2022
+    link: https://eprint.iacr.org/2022/332.pdf
+- thumbnail: waldo.png
+  img: waldo.png
+  project:
+    name: "Waldo: A Private Time-Series Database from Function Secret Sharing"
+    authors: "Emma Dauterman, Mayank Rathee, Raluca Ada Popa, Ion Stoica "
+    conference: IEEE S&P 2022
+    link: https://eprint.iacr.org/2021/1661.pdf
+- thumbnail: snoopy.png
+  img: snoopy.png
+  project:
+    name: "Snoopy: Surpassing the scalability bottleneck of oblivious storage"
+    authors: "Emma Dauterman, Vivian Fang, Ioannis Demertzis, Natacha Crooks, Raluca Ada Popa"
+    conference: SOSP 2021 
+    link: https://eprint.iacr.org/2021/1280.pdf
