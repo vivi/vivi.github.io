@@ -25,3 +25,11 @@
     authors: "Emma Dauterman, Vivian Fang, Ioannis Demertzis, Natacha Crooks, Raluca Ada Popa"
     conference: SOSP 2021 
     link: https://eprint.iacr.org/2021/1280.pdf
+- thumbnail: dory.png
+  img: dory.png
+  project:
+    name: "DORY: An Encrypted Search System with Distributed Trust"
+    authors: "Emma Dauterman, Eric Feng, Ellen Luo, Raluca Ada Popa, Ion Stoica"
+    conference: OSDI 2020
+    link: https://eprint.iacr.org/2020/1280
+  note: <em>Adapted from <a href="https://thenounproject.com/icon/dory-1571975/">dory</a> by Ben Davis.</em>

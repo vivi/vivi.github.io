@@ -24,6 +24,10 @@ Send me an email at <span class="email-wrapper"><img class="email" src="/assets/
         {{ a.project.authors }}
         <br>
         {{ a.project.conference }}
+    {% if a.note != nil %}
+        <br>
+        {{ a.note }}
+    {% endif %}
     </div>
 </div>
 {% endfor %}

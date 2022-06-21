@@ -357,19 +357,35 @@ img.art {
 .project {
     display: flex;
     margin-bottom: 20px;
+    @include media-query($on-palm) {
+        display: inherit;
+    }
 }
 
 .project > .art {
     background-color: $grey-color-light;
-    width: 25%;
+    width: 30%;
     display: flex;
     flex-direction: column;
+    @include media-query($on-palm) {
+        width: 65%;
+        margin: auto;
+    }
 }
 
 .project > .info {
     margin-left: 15px;
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 70%;
     flex-grow: 1;
+    @include media-query($on-palm) {
+        margin-top: 5px;
+        margin-left: 0;
+        width: 100%;
+        flex-grow: 0;
+        text-align: center;
+
+    }
     //margin-left: 30%;
 }
