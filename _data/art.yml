@@ -1,3 +1,9 @@
+- thumbnail: blockaid.png
+  img: blockaid.png
+  project:
+    name: "Blockaid: Data Access Policy Enforcement for Web Applications"
+    authors: "Wen Zhang, Eric Sheng, Michael Chang, Aurojit Panda, Mooly Sagiv, Scott Shenker"
+    conference: OSDI 2022
 - thumbnail: pirahna.png
   img: pirahna.png
   project:
