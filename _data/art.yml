@@ -4,12 +4,14 @@
     name: "Blockaid: Data Access Policy Enforcement for Web Applications"
     authors: "Wen Zhang, Eric Sheng, Michael Chang, Aurojit Panda, Mooly Sagiv, Scott Shenker"
     conference: OSDI 2022
+    link: https://arxiv.org/abs/2205.06911
 - thumbnail: pirahna.png
   img: pirahna.png
   project:
     name: "Piranha: A GPU Platform for Secure Computation"
     authors: "Jean-Luc Watson, Sameer Wagh, Raluca Ada Popa"
     conference: USENIX Security 2022
+    link: https://eprint.iacr.org/2022/892
 - thumbnail: costco.png
   img: costco.png
   project:
