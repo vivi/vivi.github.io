@@ -21,7 +21,7 @@ Welcome to my blog! Here, you'll find me rambling about anything interesting I e
       <div class="tr">
         <div class="td category">
           {%- if forloop.index == 1 -%}
-          <a href="{{ name }}">
+          <a href="{{ name | downcase }}">
             <span class="tag {{ name }}"></span>
           </a>
           {%- endif -%}
