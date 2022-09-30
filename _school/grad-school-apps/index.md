@@ -111,6 +111,3 @@ that while you're on winter vacation. I have found that these interviews
 generally follow the same format: they ask you to explain your current research,
 and the discussion builds from there. They also give you the opportunity to ask
 about their program. One professor asked me for samples of my technical writing.
-
-# Visit Days
-Coming soon!

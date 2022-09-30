@@ -18,6 +18,11 @@ title: Vivian's Calendar
   let my_offset = new Date(new Date().toLocaleString("en-US", {
     timeZone: my_tz,
   })).getTimezoneOffset() / -60;
+  const getOffset = (timeZone = 'UTC', date = new Date()) => {
+    const utcDate = new Date(date.toLocaleString('en-US', { timeZone: 'UTC' }));
+    const tzDate = new Date(date.toLocaleString('en-US', { my_tz }));
+    return (tzDate.getTime() - utcDate.getTime()) / 6e4;
+  }
   let browser_tz = new Intl.DateTimeFormat().resolvedOptions().timeZone;
   if (browser_tz == undefined) {
     tz_text.innerHTML = `<b>Note:</b> The calendar below is displayed in the timezone America/Los_Angeles (UTC${my_offset}).`;
