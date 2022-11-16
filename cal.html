@@ -4,7 +4,7 @@ title: Vivian's Calendar
 ---
 <div class="text-box">
 <span style="width:100%; max-width:800px; margin-left:auto; margin-right:auto;">
-  Below is my schedule, which I (usually) keep updated.
+  Below is my schedule, which I try my best to keep updated.
   <div id="timezone">
   </div>
   <div id="calendar">
@@ -14,10 +14,8 @@ title: Vivian's Calendar
 </div>
 <script type="text/javascript">
   let my_tz = "America/Los_Angeles";
+  let my_offset = "UTC-8";
   let tz_text = document.getElementById("timezone");
-  let my_offset = new Date(new Date().toLocaleString("en-US", {
-    timeZone: my_tz,
-  })).getTimezoneOffset() / -60;
   const getOffset = (timeZone = 'UTC', date = new Date()) => {
     const utcDate = new Date(date.toLocaleString('en-US', { timeZone: 'UTC' }));
     const tzDate = new Date(date.toLocaleString('en-US', { my_tz }));
@@ -25,11 +23,11 @@ title: Vivian's Calendar
   }
   let browser_tz = new Intl.DateTimeFormat().resolvedOptions().timeZone;
   if (browser_tz == undefined) {
-    tz_text.innerHTML = `<b>Note:</b> The calendar below is displayed in the timezone America/Los_Angeles (UTC${my_offset}).`;
+      tz_text.innerHTML = `<b>Note:</b> The calendar below is displayed in the timezone ${my_tz} (${my_offset}).`;
   } else if (browser_tz != my_tz) {
-    tz_text.innerHTML = `<b>Note:</b> My current timezone is ${my_tz} (UTC${my_offset}).<br>`;
+      tz_text.innerHTML = `<b>Note:</b> My current timezone is <b>${my_tz} (${my_offset}).</b><br>`;
     let offset = new Date().getTimezoneOffset() / -60;
-    tz_text.innerHTML = tz_text.innerHTML + `The calendar below is displayed in your local timezone: ${browser_tz} (UTC${offset > 0 ? "+" : ""}${offset}).`;
+      tz_text.innerHTML = tz_text.innerHTML + `The calendar below is displayed in your local timezone: <b>${browser_tz} (UTC${offset > 0 ? "+" : ""}${offset})</b>.`;
   }
 
   let cal = document.getElementById("calendar");
