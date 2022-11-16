@@ -1,3 +1,10 @@
+- thumbnail: dist-trust.png
+  img: dist-trust.png
+  project:
+    name: "Reflections on Trusting Distributed Trust"
+    authors: "Emma Dauterman*, Vivian Fang*, Natacha Crooks, Raluca Ada Popa"
+    conference: HotNets 2022
+    link: "https://arxiv.org/pdf/2210.08127.pdf"
 - thumbnail: blockaid.png
   img: blockaid.png
   project:
@@ -30,7 +37,7 @@
   img: snoopy.png
   project:
     name: "Snoopy: Surpassing the scalability bottleneck of oblivious storage"
-    authors: "Emma Dauterman, Vivian Fang, Ioannis Demertzis, Natacha Crooks, Raluca Ada Popa"
+    authors: "Emma Dauterman*, Vivian Fang*, Ioannis Demertzis, Natacha Crooks, Raluca Ada Popa"
     conference: SOSP 2021 
     link: https://eprint.iacr.org/2021/1280.pdf
 - thumbnail: dory.png
