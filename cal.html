@@ -23,7 +23,7 @@ title: Vivian's Calendar
   }
   let browser_tz = new Intl.DateTimeFormat().resolvedOptions().timeZone;
   if (browser_tz == undefined) {
-      tz_text.innerHTML = `<b>Note:</b> The calendar below is displayed in the timezone ${my_tz} (${my_offset}).`;
+      tz_text.innerHTML = `<b>Note:</b> The calendar below is displayed in the timezone <b>${my_tz} (${my_offset})</b>.`;
   } else if (browser_tz != my_tz) {
       tz_text.innerHTML = `<b>Note:</b> My current timezone is <b>${my_tz} (${my_offset}).</b><br>`;
     let offset = new Date().getTimezoneOffset() / -60;
