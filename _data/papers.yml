@@ -1,7 +1,8 @@
 - authors: "Emma Dauterman*, Vivian Fang*, Natacha Crooks, Raluca Ada Popa"
   title: "Reflections on Trusting Distributed Trust"
   conference: "HotNets"
-  year: 2022 (to appear)
+  year: 2022
+  link: "https://arxiv.org/pdf/2210.08127.pdf"
 - authors: "Vivian Fang, Lloyd Brown, William Lin, Wenting Zheng, Aurojit Panda, Raluca Ada Popa"
   title: "CostCO: An automatic cost modeling framework for secure multi-party computation"
   conference: "EuroS&P"
