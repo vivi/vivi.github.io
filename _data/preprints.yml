@@ -1,0 +1,10 @@
+- authors: "Julien Piet, Chawin Sitawarin, Vivian Fang, Norman Mu, David Wagner"
+  title: "Mark My Words: Analyzing and Evaluating Language Model Watermarks. "
+  conference: "arXiv:2312.00273"
+  link: "https://arxiv.org/pdf/2312.00273.pdf"
+  code: https://github.com/wagner-group/MarkMyWords
+- authors: "Charles Packer, Vivian Fang, Shishir G. Patil, Kevin Lin, Sarah Wooders, Joseph E. Gonzalez"
+  title: "MemGPT: Towards LLMs as Operating Systems"
+  conference: "arXiv:2310.08560"
+  link: "https://arxiv.org/pdf/2310.08560v1.pdf"
+  code: https://github.com/cpacker/MemGPT
