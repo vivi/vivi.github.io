@@ -1,3 +1,8 @@
+- authors: "Shishir G. Patil, Tianjun Zhang, Vivian Fang, Noppapon C., Roy Huang, Aaron Hao, Martin Casado, Joseph E. Gonzalez, Raluca Ada Popa, Ion Stoica"
+  title: "GoEx: Perspectives and Designs Towards a Runtime for Autonomous LLM Applications"
+  conference: iarXiv preprint arXiv:2404.06921"
+  link: "https://arxiv.org/pdf/2404.06921.pdf"
+  code: https://github.com/ShishirPatil/gorilla/tree/main/goex
 - authors: "Julien Piet, Chawin Sitawarin, Vivian Fang, Norman Mu, David Wagner"
   title: "Mark My Words: Analyzing and Evaluating Language Model Watermarks. "
   conference: "arXiv:2312.00273"
