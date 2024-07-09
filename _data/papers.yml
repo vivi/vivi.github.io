@@ -1,10 +1,10 @@
 - authors: "Graeme Connell*, Vivian Fang*, Rolfe Schmidt*, Emma Dauterman, Raluca Ada Popa"
-  title: "Secret Key Recovery in a Global-Scale End-to-End Encryption System"
+  title: "Secret key recovery in a global-scale end-to-end encryption system"
   conference: "OSDI"
   year: 2024 (to appear)
   code: https://github.com/signalapp/SecureValueRecovery2
 - authors: "Emma Dauterman*, Vivian Fang*, Natacha Crooks, Raluca Ada Popa"
-  title: "Reflections on Trusting Distributed Trust"
+  title: "Reflections on trusting distributed trust"
   conference: "HotNets"
   year: 2022
   link: "https://arxiv.org/pdf/2210.08127.pdf"
