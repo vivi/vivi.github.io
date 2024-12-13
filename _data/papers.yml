@@ -1,7 +1,13 @@
+- authors: "Julien Piet, Chawin Sitawarin, Vivian Fang, Norman Mu, David Wagner"
+  title: "Mark My Words: Analyzing and evaluating language model watermarks. "
+  conference: "SatML"
+  year: 2025 (to appear)
+  link: "https://arxiv.org/pdf/2312.00273"
+  code: https://github.com/wagner-group/MarkMyWords
 - authors: "Graeme Connell*, Vivian Fang*, Rolfe Schmidt*, Emma Dauterman, Raluca Ada Popa"
   title: "Secret key recovery in a global-scale end-to-end encryption system"
   conference: "OSDI"
-  year: 2024 (to appear)
+  year: 2024
   code: https://github.com/signalapp/SecureValueRecovery2
   link: "http://eprint.iacr.org/2024/887.pdf"
 - authors: "Emma Dauterman*, Vivian Fang*, Natacha Crooks, Raluca Ada Popa"
