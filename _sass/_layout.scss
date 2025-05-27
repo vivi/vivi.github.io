@@ -345,8 +345,8 @@ div.note {
     width: 150px;
     border: 2px solid #002b37;
     @include media-query($on-palm) {
-        border: 1px solid $grey-color-light;
-        width: 200px;
+        border: 2px solid $grey-color-light;
+        width: 150px;
     }
 }
 
